@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Xbindings.AWSPolly.iOS</id>
+        <version>2.6.8</version>
+        <authors>XBindings</authors>
+        <owners>XBindings</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>AWS Polly for iOS</title>
+        <summary>Xamarin.iOS binding library - AWS Polly</summary>
+        <description>Xamarin.iOS binding library - AWS Polly</description>
+        <releaseNotes>AWS Polly v2.6.8</releaseNotes>
+        <iconUrl>https://avatars0.githubusercontent.com/u/2232217</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/xbindings/awspolly-ios-binding</projectUrl>
+        <copyright>Copyright (c) 2017 XBindings</copyright>
+        <tags>Xamarin.iOS, xamarin, xamarin-ios, aws, awspolly, aws-polly</tags>
+        <dependencies>
+            <dependency id="Xbindings.AWSCore.iOS" version="2.6.8" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Xbindings.AWSPolly.iOS/bin/Release/Xbindings.AWSPolly.iOS.dll" target="lib/Xamarin.iOS10/Xbindings.AWSPolly.iOS.dll" />
+    </files>
+</package>
